@@ -1,0 +1,41 @@
+.recommend{
+    padding: 10px;
+    padding-bottom: 100px;
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        &-h2{
+            font-size: 40px;
+            font-weight: 500;
+        }
+    }
+    &__content{
+        display: flex;
+        justify-content: center;  
+        &-image{
+            width: 586px;
+            background-image: url('../../img/reccomend.png');
+            border-radius: 0 20px 20px 0;
+        }  
+        &-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 200px;
+            padding: 20px;
+            border-radius: 20px 0 0 20px;
+            background-color: #DCE9B1;
+            &Title{
+                width: 650px;
+                font-size: 20px;
+                line-height: 1.5;
+            }
+            &Zag{
+                font-weight: 500;
+                font-size: 30px;
+            }
+        }
+    }
+}

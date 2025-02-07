@@ -319,4 +319,46 @@
 .photo-input-it {
   border: none;
   align-items: center;
+}
+
+.recommend {
+  padding: 10px;
+  padding-bottom: 100px;
+}
+.recommend__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.recommend__info-h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.recommend__content {
+  display: flex;
+  justify-content: center;
+}
+.recommend__content-image {
+  width: 586px;
+  background-image: url("../../img/reccomend.png");
+  border-radius: 0 20px 20px 0;
+}
+.recommend__content-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 200px;
+  padding: 20px;
+  border-radius: 20px 0 0 20px;
+  background-color: #DCE9B1;
+}
+.recommend__content-infoTitle {
+  width: 650px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.recommend__content-infoZag {
+  font-weight: 500;
+  font-size: 30px;
 }/*# sourceMappingURL=main-style.min.css.map */
