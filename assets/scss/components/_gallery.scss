@@ -1,0 +1,18 @@
+.gallery{
+    padding: 20px;
+    &__content{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    &__container{
+        width: 500px;
+        padding: 10px;
+        &-text{
+            font-weight: 500;
+        }
+        &-txt{
+            font-size: 15px;
+        }
+    }
+}

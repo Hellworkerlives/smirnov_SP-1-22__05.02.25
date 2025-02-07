@@ -361,4 +361,23 @@
 .recommend__content-infoZag {
   font-weight: 500;
   font-size: 30px;
+}
+
+.gallery {
+  padding: 20px;
+}
+.gallery__content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.gallery__container {
+  width: 500px;
+  padding: 10px;
+}
+.gallery__container-text {
+  font-weight: 500;
+}
+.gallery__container-txt {
+  font-size: 15px;
 }/*# sourceMappingURL=main-style.min.css.map */
