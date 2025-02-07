@@ -1,0 +1,101 @@
+.buy{
+    padding: 20px;
+    padding-top: 80px;
+    background-color: #F5F5F5;
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-text{
+            font-size: 40px;
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        &-info{
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #F5F5F5;
+            &Block{
+                display: flex;
+                gap: 10px;
+            }
+        }
+        &Day{
+            display: flex;
+            background-color: #DCE9B1;
+            padding: 20px;
+            border-radius: 20px;
+            justify-content: space-between;
+            gap: 20px;
+            &-info{
+                padding: 20px;
+                border-radius: 20px;
+                background-color: #1B1B1B;
+                color: white;
+                width: 800px;
+            }
+        }
+        &Hour{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            &-button{
+                margin-top: 20px;
+                margin-bottom: 40px;
+                display: flex;
+                gap: 6px;
+                justify-content: space-between;
+                &Get{
+                    padding: 15px;
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+                &Demo{
+                    padding: 15px;
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+            }
+            &-price{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &-info{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    &Text{
+                        font-size: 40px;
+                    }
+                    &Txt{
+                        color:#575757;
+                    }
+                }
+            }
+            &-container{
+                
+                background-color: #FFFFFF;
+                padding: 20px;
+                border-radius: 20px;
+            }
+        }
+    }
+}

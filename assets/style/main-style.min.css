@@ -380,4 +380,105 @@
 }
 .gallery__container-txt {
   font-size: 15px;
+}
+
+.buy {
+  padding: 20px;
+  padding-top: 80px;
+  background-color: #F5F5F5;
+}
+.buy__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buy__info-text {
+  font-size: 40px;
+}
+.buy__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.buy__content-info {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #F5F5F5;
+}
+.buy__content-infoBlock {
+  display: flex;
+  gap: 10px;
+}
+.buy__contentDay {
+  display: flex;
+  background-color: #DCE9B1;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.buy__contentDay-info {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #1B1B1B;
+  color: white;
+  width: 800px;
+}
+.buy__contentHour {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.buy__contentHour-button {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+}
+.buy__contentHour-buttonGet {
+  padding: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.buy__contentHour-buttonDemo {
+  padding: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.buy__contentHour-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy__contentHour-price-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.buy__contentHour-price-infoText {
+  font-size: 40px;
+}
+.buy__contentHour-price-infoTxt {
+  color: #575757;
+}
+.buy__contentHour-container {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 20px;
 }/*# sourceMappingURL=main-style.min.css.map */
